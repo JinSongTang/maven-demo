@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/annotation-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/echarts" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-ssm" />
+    <file type="web" url="file://$PROJECT_DIR$/maven-ssm1" />
+    <file type="web" url="file://$PROJECT_DIR$/mybatis-demo" />
+    <file type="web" url="file://$PROJECT_DIR$/thymeleafdemo" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/maven-demo-1/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-ssm/pom.xml" />
+        <option value="$PROJECT_DIR$/maven-ssm1/pom.xml" />
+        <option value="$PROJECT_DIR$/thymeleafdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/echarts/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/annotation-demo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_12" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

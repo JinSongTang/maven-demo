@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="annotation-demo" />
+        <module name="maven-ssm1" />
+        <module name="echarts" />
+        <module name="mybatis-demo" />
+        <module name="thymeleafdemo" />
+        <module name="maven-ssm" />
+        <module name="maven-demo-1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotation-demo" target="1.8" />
+      <module name="echarts" target="1.8" />
+      <module name="maven-demo-1" target="1.8" />
+      <module name="maven-ssm" target="1.8" />
+      <module name="maven-ssm1" target="1.8" />
+      <module name="mybatis-demo" target="1.8" />
+      <module name="thymeleafdemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

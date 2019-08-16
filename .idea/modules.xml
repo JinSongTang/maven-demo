@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/annotation-demo/annotation-demo.iml" filepath="$PROJECT_DIR$/annotation-demo/annotation-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/echarts/echarts.iml" filepath="$PROJECT_DIR$/echarts/echarts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-demo-1/maven-demo-1.iml" filepath="$PROJECT_DIR$/maven-demo-1/maven-demo-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm/maven-ssm.iml" filepath="$PROJECT_DIR$/maven-ssm/maven-ssm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-ssm1/maven-ssm1.iml" filepath="$PROJECT_DIR$/maven-ssm1/maven-ssm1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" filepath="$PROJECT_DIR$/mybatis-demo/mybatis-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thymeleafdemo/thymeleafdemo.iml" filepath="$PROJECT_DIR$/thymeleafdemo/thymeleafdemo.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>饼状图</title>
+    <script src="jquery/jquery-2.1.1.min.js"></script>
+    <script src="echarts/js/echarts.min.js"></script>
+</head>
+<body>
+
+        <!--声明一个容器-->
+<div id="roundDiv" style="width: 1000px;height:800px;margin: 20px auto"></div>
+
+        <script>
+        //创建echarts对象在哪个节点上
+        var myCharts = echarts.init(document.getElementById('roundDiv'));
+       <!-- 设置选项-->
+        var option = {
+       <!-- 背景颜色-->
+        backgroundColor: 'white',
+        /*标题*/
+        title: {
+        text: '水果产量占比',
+        left: 'center',
+        top: 20,
+        textStyle: {
+        color: '#ccc'
+        }
+        },
+        //工具提示
+        tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {d}%"
+        },
+        //图表属性
+        series : [
+        {
+        name:'用户有效性占比',//名称
+        type:'pie',//声明这是一个饼图
+        clockwise:'true',
+        startAngle:'0',
+        radius : '40%',//半径
+        center: ['50%', '50%'],//居中
+        //数据-->ajax
+        data:[
+        {
+        "name": "苹果",
+        "value": 1
+        },
+        {
+        "name": "西瓜",
+        "value": 7
+        },
+            {
+                "name": "橘子",
+                "value": 7
+            },
+            {
+                "name": "香蕉",
+                "value": 7
+            },
+            {
+                "name": "葡萄",
+                "value": 7
+            }
+        ]
+        }
+        ]
+
+        };
+
+        $.ajax({
+            url:"echarts",
+            datatype:"json",
+            success:function(msg){
+
+                option.series[0].data=msg;
+                myCharts.setOption(option,true)
+            }
+
+        })
+
+
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN"  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<body>
+    Hello world
+    <span th:text="${message}"/>
+    <span th:utext="${linkMessage}"></span><br/>
+    <div th:object="${user}"></div><br/>
+    <input type="text" th:value="${user.username}"/>
+    <div th:switch="${userinfo.role}">
+        <p th:case="admin">超级管理员</p>
+        <p th:case="manager">部门经理</p>
+        <p th:case="emp">员工</p>
+    </div>
+
+    <select>
+        <option th:each="user,userStat:${emps}" th:text="${user.name}" th:value="${user.role}"></option>
+    </select>
+</body>
+</html>
